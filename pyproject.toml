@@ -6,7 +6,7 @@ build-backend = "hatchling.build"
 name = "ranged"
 version = "0.0.1"
 authors = [
-  {name="Deera Wijesundara", email="deerawj@gmail.com"}
+  {name="Deera Wijesundara", email="deerawj+pypi@gmail.com"}
 ]
 description = "A package aimed at creating a more feature rich range"
 readme = "README.md"
