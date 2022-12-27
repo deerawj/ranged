@@ -18,12 +18,19 @@ Currently, ranged is in beta (0.x), but work is underway to ensure that every ve
 ## installation
 
 `python3 -m pip install ranged`
+
 or
+
 `pip3 install ranged`
 
-## example
+## code
 
 ```
-for i in Range(10, 90, func=lambda a:a+1, filt=lambda a:a < 15):
-	print(i)
+Range(10, 90, func=lambda a:a+1, filt=lambda a:a < 15)
+```
+
+## test
+
+```
+pytest tests/main.py
 ```
