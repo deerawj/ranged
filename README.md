@@ -32,5 +32,5 @@ Range(10, 90, func=lambda a:a+1, filt=lambda a:a < 15)
 ## test
 
 ```
-pytest tests/main.py
+pytest test/main.py
 ```
